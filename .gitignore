@@ -1,0 +1,58 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (Go modules)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go build cache
+/tmp/
+
+# Build output directories
+bin/
+dist/
+
+# Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Mac OS files
+.DS_Store
+
+# Linux/Mac specific hidden files
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+
+# Logs and database
+*.log
+*.sqlite3
+*.db
+
+# System files
+Thumbs.db
+Desktop.ini
+
+# Cover profiles generated during test
+coverage.txt
+
+# Environment variables and secrets (optional)
+.env
+.env.*
+
+# Any local configuration files
+config.yaml
+config.json
